@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<all_sources>
+
+    
+ <sources name = "全部" id = "-1">   
+      <source>
+
+        <abbr>ALL</abbr>
+        <code>-1</code>
+        <value>全部</value>
+    </source>
+ </sources>   
+ 
+<sources name = "国际" id = "101">
+    
+  <source>
+
+        <abbr>ALL</abbr>
+        <code>101000</code>
+        <value>全部</value>
+    </source>
+    
+    
+    <source>
+
+        <abbr>USA</abbr>
+        <code>101001</code>
+        <value>美国</value>
+    </source>
+ 
+    <source>
+        
+        <abbr>RUS</abbr>
+        <code>101002</code>
+        <value>俄罗斯</value>
+    </source>  
+    
+       
+       
+  
+ 
+    <source>
+        
+        <abbr>CAN</abbr>
+        <code>101003</code>
+        <value>加拿大</value>
+    </source>  
+    
+    
+    <source>
+        
+        <abbr>GER</abbr>
+        <code>101004</code>
+        <value>德国</value>
+    </source> 
+    
+    
+     <source>
+        
+        <abbr>FRE</abbr>
+        <code>101005</code>
+        <value>法国</value>
+    </source>   
+ 
+  
+      <source>
+        
+        <abbr>ENG</abbr>
+        <code>101006</code>
+        <value>英国</value>
+    </source>     
+     
+     
+      <source>
+        
+        <abbr>ITA</abbr>
+        <code>101007</code>
+        <value>意大利</value>
+    </source>  
+     
+     
+     
+     <source>
+        
+        <abbr>JAP</abbr>
+        <code>101008</code>
+        <value>日本</value>
+    </source>    
+    
+     
+      <source>
+        
+        <abbr>KOR</abbr>
+        <code>101009</code>
+        <value>韩国</value>
+    </source>   
+     
+     <source>
+        
+        <abbr>SIN</abbr>
+        <code>101010</code>
+        <value>新加坡</value>
+    </source> 
+    
+     
+  
+  
+     
+    <source> 
+        <abbr>TAI</abbr>
+        <code>101011</code>
+        <value>泰国</value>
+    </source>     
+ 
+    
+     <source>
+        
+        <abbr>MAS</abbr>
+        <code>101012</code>
+        <value>马来西亚</value>
+    </source>   
+   
+       <source>
+        
+        <abbr>IND</abbr>
+        <code>101013</code>
+        <value>印度</value>
+    </source>    
+     
+   
+      <source>
+        
+        <abbr>ARA</abbr>
+        <code>101014</code>
+        <value>阿拉伯</value>
+    </source>       
+  
+    <source>
+        
+        <abbr>YIR</abbr>
+        <code>101015</code>
+        <value>伊朗</value>
+    </source>     
+ 
+    
+    
+     <source>
+        
+        <abbr>AUS</abbr>
+        <code>101016</code>
+        <value>澳大利亚</value>
+    </source>    
+ 
+      <source>
+        
+        <abbr>NES</abbr>
+        <code>101017</code>
+        <value>新西兰</value>
+    </source>     
+    
+      <source>
+        
+        <abbr>AGE</abbr>
+        <code>101018</code>
+        <value>阿根廷</value>
+    </source> 
+    
+      <source>
+        
+        <abbr>MEX</abbr>
+        <code>101019</code>
+        <value>墨西哥</value>
+    </source>      
+      
+     <source>
+        
+        <abbr>SWE</abbr>
+        <code>101020</code>
+        <value>瑞典</value>
+    </source> 
+  
+</sources>
+
+
+
+
+
+
+
+<sources name = "国家" id = "102">
+
+     <source>
+       <abbr>aa</abbr>
+       <code>102000</code>
+       <value>全部</value>
+    </source>
+    
+    <source>
+       <abbr>aa</abbr>
+       <code>102001</code>
+       <value>科技部</value>
+    </source>
+    
+    <source>
+       <abbr>aa</abbr>
+       <code>102002</code>
+       <value>文化部</value>
+    </source>   
+    <source>
+       <abbr>aa</abbr>
+       <code>102003</code>
+       <value>财政部</value>
+    </source>        
+    <source>
+       <abbr>aa</abbr>
+       <code>102004</code>
+       <value>水利部</value>
+    </source> 
+    
+    <source>
+       <abbr>aa</abbr>
+       <code>102005</code>
+       <value>审计署</value>
+    </source> 
+           
+    <source>
+       <abbr>aa</abbr>
+       <code>102006</code>
+       <value>民政部</value>
+    </source>   
+    
+    <source>
+       <abbr>aa</abbr>
+       <code>102007</code>
+       <value>国家海洋局</value>
+    </source>        
+    
+    <source>
+       <abbr>aa</abbr>
+       <code>102008</code>
+       <value>国家旅游局</value>
+    </source>   
+    
+    
+     <source>
+       <abbr>aa</abbr>
+       <code>102009</code>
+       <value>中国科学院</value>
+    </source>       
+ 
+    <source>
+       <abbr>aa</abbr>
+       <code>102010</code>
+       <value>国家信访局</value>
+    </source> 
+
+    <source>
+       <abbr>aa</abbr>
+       <code>102011</code>
+       <value>国家粮食局</value>
+    </source> 
+    
+    
+    <source>
+       <abbr>aa</abbr>
+       <code>102012</code>
+       <value>国家宗教事务局</value>
+    </source>     
+    
+    <source>
+       <abbr>aa</abbr>
+       <code>102013</code>
+       <value>中国科学技术协会</value>
+    </source>     
+ 
+    
+    <source>
+       <abbr>aa</abbr>
+       <code>102014</code>
+       <value>国家民族事务委员会</value>
+    </source> 
+   
+    
+    
+    
+    
+      <source>
+       <abbr>aa</abbr>
+       <code>102015</code>
+       <value>国家新闻出版广电总局</value>
+    </source> 
+    
+    
+    
+    
+     <source>
+       <abbr>aa</abbr>
+       <code>102016</code>
+       <value>卫生和计划生育委员会</value>
+    </source> 
+      
+    
+    
+     <source>
+       <abbr>aa</abbr>
+       <code>102017</code>
+       <value>国家自然科学基金委员会</value>
+    </source> 
+     
+    
+    
+    
+    
+</sources>
+
+
+
+
+
+
+<!-- <sources name = "各部" id="103"> -->
+     
+<!--     <source> -->
+<!--         <abbr>aa</abbr> -->
+<!--         <code>103000</code> -->
+<!--         <value>全部</value> -->
+<!--     </source> -->
+    
+    
+<!--      <source> -->
+<!--         <abbr>aa</abbr> -->
+<!--         <code>103001</code> -->
+<!--         <value>部门1</value> -->
+<!--     </source> -->
+
+    
+<!--     <source> -->
+<!--         <abbr>aa</abbr> -->
+<!--         <code>103002</code> -->
+<!--         <value>部门2</value> -->
+<!--     </source>   -->
+    
+<!--     <source> -->
+<!--         <abbr>aa</abbr> -->
+<!--         <code>103003</code> -->
+<!--         <value>部门3</value> -->
+<!--     </source>     -->
+<!--     <source> -->
+<!--         <abbr>aa</abbr> -->
+<!--         <code>103004</code> -->
+<!--         <value>部门4</value> -->
+<!--     </source>  -->
+    
+    
+    
+<!--     <source> -->
+<!--         <abbr>aa</abbr> -->
+<!--         <code>103005</code> -->
+<!--         <value>部门5</value> -->
+<!--     </source>     -->
+ 
+<!--      <source> -->
+<!--         <abbr>aa</abbr> -->
+<!--         <code>103006</code> -->
+<!--         <value>部门6</value> -->
+<!--     </source>  -->
+    
+<!--     <source> -->
+<!--         <abbr>aa</abbr> -->
+<!--         <code>103007</code> -->
+<!--         <value>部门7</value> -->
+<!--     </source>   -->
+    
+    
+<!--     <source> -->
+<!--         <abbr>aa</abbr> -->
+<!--         <code>103008</code> -->
+<!--         <value>部门8</value> -->
+<!--     </source>      -->
+<!--     <source> -->
+<!--         <abbr>aa</abbr> -->
+<!--         <code>103009</code> -->
+<!--         <value>部门9</value> -->
+<!--     </source>  -->
+    
+<!--      <source> -->
+<!--         <abbr>aa</abbr> -->
+<!--         <code>103010</code> -->
+<!--         <value>部门10</value> -->
+<!--     </source>  -->
+<!-- </sources> -->
+
+
+
+
+
+<sources name = "地域" id = "104">
+    
+     <source>
+      <abbr>ALL</abbr>
+      <code>104000</code>
+      <value>全部</value>
+    </source>
+    
+    <source>
+      <abbr>BJ</abbr>
+        <code>104001</code>
+        <value>北京市</value>
+   </source>
+ 
+
+    <source>
+      <abbr>TJ</abbr>
+      <code>104002</code>
+      <value>天津市</value>
+    </source>
+    
+       <source>
+      <abbr>HE</abbr>
+      <code>104003</code>
+      <value>河北省</value>
+    </source>
+    
+   <source>
+      <abbr>SX</abbr>
+      <code>104004</code>
+      <value>山西省</value>
+    </source> 
+   
+   
+   
+   <source>
+      <abbr>NM</abbr>
+      <code>104005</code>
+      <value>内蒙古自治区</value>
+    </source>
+ 
+   
+     <source>
+      <abbr>LN</abbr>
+      <code>104006</code>
+      <value>辽宁省</value>
+   </source>
+   
+  
+  <source>
+      <abbr>JL</abbr>
+      <code>104007</code>
+      <value>吉林省</value>
+    </source>
+  
+   <source>
+      <abbr>HL</abbr>
+      <code>104008</code>
+      <value>黑龙江</value>
+    </source>
+  
+  
+    <source>
+      <abbr>SH</abbr>
+      <code>104009</code>
+      <value>上海市</value>
+    </source>
+    
+   
+    
+     <source>
+      <abbr>JS</abbr>
+      <code>104010</code>
+      <value>江苏省</value>
+    </source>
+    
+   
+     <source>
+      <abbr>ZJ</abbr>
+      <code>104011</code>
+      <value>浙江省</value>
+    </source>
+   
+    <source>
+      <abbr>AH</abbr>
+      <code>104012</code>
+      <value>安徽省</value>
+    </source>  
+     
+    <source>
+      <abbr>FJ</abbr>
+      <code>104013</code>
+      <value>福建省</value>
+    </source>
+  
+    
+      <source>
+      <abbr>JX</abbr>
+      <code>104014</code>
+      <value>江西省</value>
+    </source> 
+    
+      
+      
+      <source>
+      <abbr>SD</abbr>
+      <code>104015</code>
+      <value>山东省</value>
+    </source>   
+    
+       <source>
+      <abbr>HA</abbr>
+      <code>104016</code>
+      <value>河南省</value>
+    </source>  
+      
+    
+    
+   <source>
+      <abbr>HB</abbr>
+      <code>104017</code>
+      <value>湖北省</value>
+    </source>
+    
+    
+   <source>
+      <abbr>HM</abbr>
+      <code>104018</code>
+      <value>湖南省</value>
+    </source>
+   
+  
+   <source>
+      <abbr>GD</abbr>
+      <code>104019</code>
+      <value>广东省</value>
+    </source>
+   
+    
+    
+    <source>
+      <abbr>GX</abbr>
+      <code>104020</code>
+      <value>广西壮族自治区</value>
+    </source> 
+   
+    
+    
+     <source>
+      <abbr>HI</abbr>
+      <code>104021</code>
+      <value>海南省</value>
+    </source>  
+    
+     
+    <source>
+      <abbr>CQ</abbr>
+      <code>104022</code>
+      <value>重庆市</value>
+    </source> 
+    
+    
+    <source>
+      <abbr>SC</abbr>
+      <code>104023</code>
+      <value>四川省</value>
+    </source> 
+    
+     
+    
+    <source>
+      <abbr>GZ</abbr>
+      <code>104024</code>
+      <value>贵州省</value>
+    </source>
+    
+    
+     <source>
+      <abbr>YN</abbr>
+      <code>104025</code>
+      <value>云南省</value>
+    </source>  
+    
+    
+     
+    <source>
+      <abbr>XZ</abbr>
+      <code>104026</code>
+      <value>西藏自治区</value>
+    </source> 
+     
+   
+    <source>
+      <abbr>SN</abbr>
+      <code>104027</code>
+      <value>陕西省</value>
+    </source>
+   
+    
+    
+   <source>
+      <abbr>GS</abbr>
+      <code>104028</code>
+      <value>甘肃省</value>
+    </source> 
+
+   
+   <source>
+      <abbr>QH</abbr>
+      <code>104029</code>
+      <value>青海省</value>
+    </source>
+  
+   
+   
+    <source>
+      <abbr>NX</abbr>
+      <code>104030</code>
+      <value>宁夏回族自治区</value>
+    </source> 
+
+    
+    
+   <source>
+      <abbr>XJ</abbr>
+      <code>104031</code>
+      <value>新疆维吾尔自治区</value>
+    </source>
+    
+   
+   <source>
+      <abbr>TW</abbr>
+      <code>104032</code>
+      <value>台湾省</value>
+    </source>
+   
+
+    <source>
+      <abbr>HK</abbr>
+      <code>104033</code>
+      <value>香港特别行政区</value>
+    </source>
+  
+    
+   <source>
+      <abbr>MO</abbr>
+      <code>104034</code>
+      <value>澳门特别行政区</value>
+    </source>
+    
+</sources>
+
+</all_sources>

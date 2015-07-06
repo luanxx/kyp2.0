@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:id="@+id/proj_fragment_root_layout"
+    android:layout_marginTop="25dip"
+     >
+    
+
+    <com.science.view.MyPullToRefreshListView
+    android:id="@+id/proj_list_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="30dip"
+    android:divider="@color/light_gray"
+    android:dividerHeight="1px"
+    android:descendantFocusability ="beforeDescendants">
+    
+  </com.science.view.MyPullToRefreshListView>
+
+    <!--  
+    <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      
+      <LinearLayout android:id="@+id/proj_src_layout"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:background="@drawable/shape_light_blue">
+          
+          <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="项目来源"
+              android:textColor="@color/white"
+              android:textSize="15sp"
+              android:paddingTop = "10dip"
+              android:paddingBottom="10dip"
+            />
+          <ImageView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/jiantou"
+              android:layout_marginLeft="5dip"
+              android:paddingTop = "10dip"
+              android:paddingBottom="10dip"
+              android:id="@+id/proj_src_arrow"/>
+      </LinearLayout>
+      
+            <LinearLayout android:id="@+id/proj_type_layout"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:background="@drawable/shape_light_blue">
+          
+          <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="项目类型"
+              android:textColor="@color/white"
+              android:textSize="15sp"
+              android:paddingTop = "10dip"
+              android:paddingBottom="10dip"/>
+          <ImageView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/jiantou"
+              android:layout_marginLeft="5dip"
+              android:paddingTop = "10dip"
+              android:paddingBottom="10dip"
+              android:id="@+id/proj_type_arrow"/>
+      </LinearLayout>
+      
+      
+  </LinearLayout>
+    
+ -->   
+    
+</LinearLayout>

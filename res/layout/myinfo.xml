@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/settingbg"
+    >
+    <include 
+        layout="@layout/settingheader"
+        />
+    <com.science.view.CircularImage
+        android:id="@+id/avatar"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:src="@drawable/shezhitouxiang"
+        android:background="@color/settingbg"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dip"
+        />
+	<LinearLayout 
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:orientation="vertical"
+	    android:background="@color/settingbg"
+	    android:layout_marginTop="15dip"
+	    android:gravity="center_horizontal"
+	    >
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:background="@drawable/icon_setting_box"
+	        android:gravity="center_vertical"
+	        >
+	        <TextView style = "@style/setting_info_hint" android:text="昵称"/>
+	        
+	        <EditText 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:background="@color/transparent"
+	            style = "@style/setting_info_input_edit"
+	            android:id="@+id/setting_info_nickname_edit"
+	            />
+	    </LinearLayout>
+   	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:background="@drawable/icon_setting_box"
+	        android:gravity="center_vertical"
+	        android:layout_marginTop="15dip"
+	        >
+            
+   	        <TextView style = "@style/setting_info_hint" android:text="身份"/>
+   	        
+   	        
+	        <Spinner 
+	            android:layout_width="wrap_content"
+	            android:layout_height="50dip"
+	            android:layout_weight="1"
+	            android:id="@+id/setting_info_identity_spinner"
+	            />
+	    </LinearLayout>
+   	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:background="@drawable/icon_setting_box"
+	        android:gravity="center_vertical"
+	        android:layout_marginTop="15dip"
+	        >
+
+             
+   	        <TextView style = "@style/setting_info_hint" android:text="单位"/>
+   	        
+	        <EditText 
+	           	android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@color/transparent"
+	            style = "@style/setting_info_input_edit"
+	            android:layout_weight="1"
+	            android:id = "@+id/setting_info_organization_edit"
+	            />
+	    </LinearLayout>
+   	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:background="@drawable/icon_setting_box"
+	        android:gravity="center_vertical"
+	        android:layout_marginTop="15dip"
+	        >
+            <TextView style = "@style/setting_info_hint" android:text="地域"/>
+	        <Spinner 
+	            android:layout_width="wrap_content"
+	            android:layout_height="50dip"
+	            android:layout_weight="1"
+	            android:id="@+id/setting_info_area_spinner"
+	            />
+	    </LinearLayout>
+   	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:background="@drawable/icon_setting_box"
+	        android:gravity="center_vertical"
+	        android:layout_marginTop="15dip"
+
+	        >
+            <TextView style = "@style/setting_info_hint" android:text="邮箱"/>
+	        <EditText 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@color/transparent"
+	            style = "@style/setting_info_input_edit"
+	            android:layout_weight="1"
+	            android:id="@+id/setting_info_email_edit"
+	            />
+	    </LinearLayout>
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_height="0dip"
+	    android:layout_width="match_parent"
+	    android:orientation="horizontal"
+	    android:background="@color/settingbg"
+	    android:layout_weight="1"
+	    android:gravity="center_horizontal"
+	    android:layout_marginTop="20dip"
+	    >
+	    <com.science.view.MyImageButton
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@color/settingbg"
+	        android:src="@drawable/baocun"
+	        android:id="@+id/setting_info_save"
+	        />
+	</LinearLayout>
+</LinearLayout>

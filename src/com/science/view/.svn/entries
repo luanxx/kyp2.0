@@ -1,0 +1,52 @@
+8
+
+dir
+50
+svn://www.oksvn.com/ScienceNetReader/ScienceNetReader/src/cn/sciencenet/view
+svn://www.oksvn.com/ScienceNetReader
+
+
+
+2012-06-18T01:36:58.984375Z
+48
+liushuaikobe
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d912e39c-7206-3c4b-b31f-fc0a04399c74
+
+MyGallery.java
+file
+
+
+
+
+2012-07-08T05:35:54.337088Z
+184e710362feb4e55e7c9cd90dd3ece3
+2012-06-18T01:36:58.984375Z
+48
+liushuaikobe
+
+MyListView.java
+file
+
+
+
+
+2012-07-08T05:35:54.345088Z
+a32fcc5e947803644c8e14a371afff93
+2012-06-02T13:31:32.413875Z
+2
+liushuaikobe
+

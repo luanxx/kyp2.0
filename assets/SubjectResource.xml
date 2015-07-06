@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all_subjects>
+<subjects id = "301" name = "基础科学">
+    
+    <subject>
+        <abbr>SX</abbr>
+        <code>001</code>
+        <value>数学</value>
+    </subject>
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>002</code>
+        <value>力学</value>
+    </subject>
+    
+       <subject>
+        <abbr>LX</abbr>
+        <code>003</code>
+        <value>物理学</value>
+    </subject>   
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>004</code>
+        <value>生物学</value>
+    </subject>  
+     
+     <subject>
+        <abbr>LX</abbr>
+        <code>005</code>
+        <value>天文学</value>
+    </subject>       
+    
+    <subject>
+     <abbr>LX</abbr>
+      <code>006</code>
+      <value>气象学</value>
+    </subject>    
+     
+         <subject>
+        <abbr>LX</abbr>
+        <code>007</code>
+        <value>海洋学</value>
+    </subject>  
+   
+      <subject>
+        <abbr>LX</abbr>
+        <code>008</code>
+        <value>地质学</value>
+    </subject> 
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>009</code>
+        <value>资源科学</value>
+    </subject>  
+         <subject>
+        <abbr>LX</abbr>
+        <code>010</code>
+        <value>地球物理学</value>
+    </subject>  
+         <subject>
+        <abbr>LX</abbr>
+        <code>011</code>
+        <value>自然地理学和测绘学</value>
+    </subject>  
+             <subject>
+        <abbr>LX</abbr>
+        <code>012</code>
+        <value>自然科学理论与方法</value>
+    </subject>  
+             <subject>
+        <abbr>LX</abbr>
+        <code>013</code>
+        <value>非线性科学与系统科学</value>
+    </subject>      
+</subjects>
+
+
+
+
+<subjects id = "302" name = "工程科技I辑">
+     <subject>
+        <abbr>LX</abbr>
+        <code>001</code>
+        <value>化学</value>
+    </subject>  
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>002</code>
+        <value>无机化工</value>
+    </subject>    
+
+     <subject>
+        <abbr>LX</abbr>
+        <code>003</code>
+        <value>有机化工</value>
+    </subject> 
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>004</code>
+        <value>燃料化工</value>
+    </subject>  
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>005</code>
+        <value>一般化学工业</value>
+    </subject>
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>006</code>
+        <value>石油天然气工业</value>
+    </subject>  
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>007</code>
+        <value>材料科学</value>
+    </subject>  
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>008</code>
+        <value>矿业工程</value>
+    </subject>
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>009</code>
+        <value>金属学及金属工艺</value>
+    </subject> 
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>010</code>
+        <value>冶金工业</value>
+    </subject>  
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>011</code>
+        <value>轻工业手工业</value>
+    </subject>  
+        
+     <subject>
+        <abbr>LX</abbr>
+        <code>012</code>
+        <value>一般服务业</value>
+    </subject> 
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>013</code>
+        <value>安全科学与灾害防治</value>
+    </subject>   
+          <subject>
+        <abbr>LX</abbr>
+        <code>014</code>
+        <value>环境科学与资源利用</value>
+    </subject>      
+     
+</subjects>
+
+<subjects id = "303" name = "工程科技II辑">
+     <subject>
+        <abbr>LX</abbr>
+        <code>001</code>
+        <value>新能源</value>
+    </subject>  
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>002</code>
+        <value>铁路运输</value>
+    </subject>    
+
+     <subject>
+        <abbr>LX</abbr>
+        <code>003</code>
+        <value>汽车工业</value>
+    </subject> 
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>004</code>
+        <value>船舶工业</value>
+    </subject>  
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>005</code>
+        <value>动力工程</value>
+    </subject>
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>006</code>
+        <value>电力工业</value>
+    </subject>  
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>007</code>
+        <value>机械工业</value>
+    </subject>  
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>008</code>
+        <value>核科学技术</value>
+    </subject>
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>009</code>
+        <value>仪器仪表工业</value>
+    </subject> 
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>010</code>
+        <value>水利水电工程</value>
+    </subject>  
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>011</code>
+        <value>公路与水路运输</value>
+    </subject>  
+        
+     <subject>
+        <abbr>LX</abbr>
+        <code>012</code>
+        <value>建筑科学与工程</value>
+    </subject> 
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>013</code>
+        <value>航空航天科学与工程</value>
+    </subject>     
+  
+      <subject>
+        <abbr>LX</abbr>
+        <code>014</code>
+        <value>武器工业与军事技术</value>
+    </subject>   
+       <subject>
+        <abbr>LX</abbr>
+        <code>015</code>
+        <value>工业通用技术及设备</value>
+    </subject>         
+          
+</subjects>
+
+
+<subjects id = "304" name = "农业科技">
+     <subject>
+        <abbr>LX</abbr>
+        <code>001</code>
+        <value>农业基础科学</value>
+    </subject>  
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>002</code>
+        <value>农业工程</value>
+    </subject>    
+
+     <subject>
+        <abbr>LX</abbr>
+        <code>003</code>
+        <value>农艺学</value>
+    </subject> 
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>004</code>
+        <value>植物保护</value>
+    </subject>  
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>005</code>
+        <value>农作物</value>
+    </subject>
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>006</code>
+        <value>园艺</value>
+    </subject>  
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>007</code>
+        <value>林业</value>
+    </subject>  
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>008</code>
+        <value>畜牧与动物医学</value>
+    </subject>
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>009</code>
+        <value>蚕蜂与野生动物保护</value>
+    </subject> 
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>010</code>
+        <value>水产和渔业</value>
+    </subject>  
+    
+          
+</subjects>
+
+<subjects id = "305" name = "哲学人文">
+     <subject>
+        <abbr>LX</abbr>
+        <code>001</code>
+        <value>哲学</value>
+    </subject>  
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>002</code>
+        <value>美学</value>
+    </subject>    
+
+     <subject>
+        <abbr>LX</abbr>
+        <code>003</code>
+        <value>宗教</value>
+    </subject> 
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>004</code>
+        <value>逻辑学</value>
+    </subject>  
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>005</code>
+        <value>伦理学</value>
+    </subject>
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>006</code>
+        <value>心理学</value>
+    </subject>  
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>007</code>
+        <value>世界文学</value>
+    </subject>  
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>008</code>
+        <value>中国文学</value>
+    </subject>
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>009</code>
+        <value>中国语言文字</value>
+    </subject> 
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>010</code>
+        <value>外国语言文字</value>
+    </subject>  
+
+      
+      <subject>
+        <abbr>LX</abbr>
+        <code>011</code>
+        <value>音乐舞蹈</value>
+    </subject>
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>012</code>
+        <value>戏剧电影与电视艺术</value>
+    </subject> 
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>013</code>
+        <value>美术书法雕塑与摄影</value>
+    </subject>  
+
+      
+     <subject>
+        <abbr>LX</abbr>
+        <code>014</code>
+        <value>地理</value>
+    </subject>  
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>015</code>
+        <value>文化</value>
+    </subject>
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>016</code>
+        <value>考古</value>
+    </subject> 
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>017</code>
+        <value>人物传记</value>
+    </subject>  
+
+      
+      <subject>
+        <abbr>LX</abbr>
+        <code>018</code>
+        <value>史学理论</value>
+    </subject>
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>019</code>
+        <value>世界历史</value>
+    </subject> 
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>020</code>
+        <value>中国通史</value>
+    </subject>        
+      
+      <subject>
+        <abbr>LX</abbr>
+        <code>021</code>
+        <value>中国古代史</value>
+    </subject>  
+          <subject>
+        <abbr>LX</abbr>
+        <code>022</code>
+        <value>中国近现代史</value>
+    </subject> 
+          <subject>
+        <abbr>LX</abbr>
+        <code>023</code>
+        <value>中国民族与地方史志</value>
+    </subject> 
+          <subject>
+        <abbr>LX</abbr>
+        <code>024</code>
+        <value>文艺理论</value>
+    </subject>         
+      
+</subjects>
+
+
+<subjects id = "306" name = "社会科学I辑">
+     <subject>
+        <abbr>LX</abbr>
+        <code>001</code>
+        <value>政治学</value>
+    </subject>  
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>002</code>
+        <value>马克思主义</value>
+    </subject>    
+
+     <subject>
+        <abbr>LX</abbr>
+        <code>003</code>
+        <value>中国共产党</value>
+    </subject> 
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>004</code>
+        <value>思想政治教育</value>
+    </subject>  
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>005</code>
+        <value>中国政治与国际政治</value>
+    </subject>
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>006</code>
+        <value>行政学及国家行政管理</value>
+    </subject>  
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>007</code>
+        <value>政党及群众组织</value>
+    </subject>  
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>008</code>
+        <value>军事</value>
+    </subject>
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>009</code>
+        <value>公安</value>
+    </subject> 
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>010</code>
+        <value>法理法史</value>
+    </subject>  
+
+      
+      <subject>
+        <abbr>LX</abbr>
+        <code>011</code>
+        <value>宪法</value>
+    </subject>
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>012</code>
+        <value>行政法及地方法制</value>
+    </subject> 
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>013</code>
+        <value>民商法</value>
+    </subject>  
+
+      
+     <subject>
+        <abbr>LX</abbr>
+        <code>014</code>
+        <value>刑法</value>
+    </subject>  
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>015</code>
+        <value>经济法</value>
+    </subject>
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>016</code>
+        <value>诉讼法与司法制度</value>
+    </subject> 
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>017</code>
+        <value>国际法</value>
+    </subject>  
+
+</subjects>
+
+
+
+<subjects id = "307" name = "社会科学II辑">
+     <subject>
+        <abbr>LX</abbr>
+        <code>001</code>
+        <value>体育</value>
+    </subject>  
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>002</code>
+        <value>民族学</value>
+    </subject>    
+
+     <subject>
+        <abbr>LX</abbr>
+        <code>003</code>
+        <value>高等教育</value>
+    </subject> 
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>004</code>
+        <value>职业教育</value>
+    </subject>  
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>005</code>
+        <value>成人教育与特殊教育</value>
+    </subject>
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>006</code>
+        <value>人口学与计划生育</value>
+    </subject>  
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>007</code>
+        <value>人才学与劳动科学</value>
+    </subject>  
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>008</code>
+        <value>教育理论与教育管理</value>
+    </subject>
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>009</code>
+        <value>社会科学理论与方法</value>
+    </subject> 
+        <subject>
+        <abbr>LX</abbr>
+        <code>010</code>
+        <value>社会学及统计学</value>
+    </subject> 
+
+</subjects>
+
+
+
+
+<subjects id = "308" name = "信息科技">
+     <subject>
+        <abbr>LX</abbr>
+        <code>001</code>
+        <value>无线电电子学</value>
+    </subject>  
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>002</code>
+        <value>电信技术</value>
+    </subject>    
+
+     <subject>
+        <abbr>LX</abbr>
+        <code>003</code>
+        <value>计算机硬件技术</value>
+    </subject> 
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>004</code>
+        <value>计算机软件技术及应用</value>
+    </subject>  
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>005</code>
+        <value>互联网技术</value>
+    </subject>
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>006</code>
+        <value>自动化技术</value>
+    </subject>  
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>007</code>
+        <value>新闻与传媒</value>
+    </subject>  
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>008</code>
+        <value>出版</value>
+    </subject>
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>009</code>
+        <value>图书情报与数字图书馆</value>
+    </subject> 
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>010</code>
+        <value>档案及博物馆</value>
+    </subject>  
+    
+          
+</subjects>
+
+
+
+<subjects id = "309" name = "经济管理">
+     <subject>
+        <abbr>LX</abbr>
+        <code>001</code>
+        <value>宏观经济管理与可持续发展</value>
+    </subject>  
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>002</code>
+        <value>经济理论及经济思想史</value>
+    </subject>    
+
+     <subject>
+        <abbr>LX</abbr>
+        <code>003</code>
+        <value>经济体制改革</value>
+    </subject> 
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>004</code>
+        <value>经济统计</value>
+    </subject>  
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>005</code>
+        <value>农业经济</value>
+    </subject>
+         <subject>
+        <abbr>LX</abbr>
+        <code>006</code>
+        <value>工业经济</value>
+    </subject>
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>007</code>
+        <value>交通运输经济</value>
+    </subject>  
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>008</code>
+        <value>企业经济</value>
+    </subject>  
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>009</code>
+        <value>旅游</value>
+    </subject>
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>010</code>
+        <value>文化经济</value>
+    </subject> 
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>011</code>
+        <value>信息经济与邮政经济</value>
+    </subject>  
+
+      
+      <subject>
+        <abbr>LX</abbr>
+        <code>012</code>
+        <value>服务业经济</value>
+    </subject>
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>013</code>
+        <value>贸易经济</value>
+    </subject> 
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>014</code>
+        <value>财政与税收</value>
+    </subject>  
+
+      
+     <subject>
+        <abbr>LX</abbr>
+        <code>015</code>
+        <value>金融</value>
+    </subject>  
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>016</code>
+        <value>证券</value>
+    </subject>
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>017</code>
+        <value>保险</value>
+    </subject> 
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>018</code>
+        <value>投资</value>
+    </subject>  
+
+      
+      <subject>
+        <abbr>LX</abbr>
+        <code>019</code>
+        <value>会计</value>
+    </subject>  
+
+      
+      <subject>
+        <abbr>LX</abbr>
+        <code>020</code>
+        <value>审计</value>
+    </subject>
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>021</code>
+        <value>市场研究与信息</value>
+    </subject> 
+       <subject>
+        <abbr>LX</abbr>
+        <code>022</code>
+        <value>管理学</value>
+    </subject>   
+      <subject>
+        <abbr>LX</abbr>
+        <code>023</code>
+        <value>领导学与决策学</value>
+    </subject>  
+
+      
+     <subject>
+        <abbr>LX</abbr>
+        <code>024</code>
+        <value>科学研究管理</value>
+    </subject>  
+</subjects>
+
+
+
+<subjects id = "310" name = "医药卫生科技">
+     <subject>
+        <abbr>LX</abbr>
+        <code>001</code>
+        <value>儿科学</value>
+    </subject>  
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>002</code>
+        <value>妇产科学</value>
+    </subject>    
+
+     <subject>
+        <abbr>LX</abbr>
+        <code>003</code>
+        <value>呼吸内科</value>
+    </subject> 
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>004</code>
+        <value>内分泌病学</value>
+    </subject>  
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>005</code>
+        <value>神经内科学</value>
+    </subject>
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>006</code>
+        <value>外科学</value>
+    </subject>  
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>007</code>
+        <value>消化内科</value>
+    </subject>  
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>008</code>
+        <value>心血管病学</value>
+    </subject>
+    
+     <subject>
+        <abbr>LX</abbr>
+        <code>009</code>
+        <value>药学</value>
+    </subject> 
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>010</code>
+        <value>医学教育与医学边缘学科</value>
+    </subject>  
+    
+      <subject>
+        <abbr>LX</abbr>
+        <code>011</code>
+        <value>医药卫生方针政策与法律</value>
+    </subject>  
+        
+     <subject>
+        <abbr>LX</abbr>
+        <code>012</code>
+        <value>中医药学</value>
+    </subject> 
+               <subject>
+        <abbr>LX</abbr>
+        <code>013</code>
+        <value>肿瘤学</value>
+    </subject> 
+</subjects>
+
+</all_subjects>

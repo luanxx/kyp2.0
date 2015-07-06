@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dip"
+    android:paddingRight="20dip"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+     <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="300dip"
+        android:layout_marginTop="30dip"
+        android:background="@drawable/release_common_box">
+        <EditText 
+            android:id="@+id/coop_detail_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="站内信"
+           style="@style/release_edittext_style2"
+            android:paddingLeft="10dip"
+            android:paddingTop="10dip"/>
+        </RelativeLayout>
+        
+   <com.science.view.MyImageButton 
+        android:id="@+id/coop_detail_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_finish_release"
+        android:layout_marginTop="30dip"
+        android:layout_marginBottom="20dip"/>
+    
+</LinearLayout>
+</ScrollView>

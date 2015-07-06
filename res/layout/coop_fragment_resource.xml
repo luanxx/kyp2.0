@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/frag_resource_linear">
+
+  <ImageView android:layout_width="match_parent"
+     android:layout_height="1px"
+    android:src="@color/middle_blue"
+    />
+    
+    <!-- 搜索框的样式 -->
+    <LinearLayout 
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@color/light_blue"
+     android:gravity="center"
+     android:paddingTop="5dip"
+     android:paddingBottom = "5dip">
+
+
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_input_box"
+            android:gravity="center_vertical"
+         >
+            
+            <EditText android:id="@+id/coop_resource_search_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="搜索"
+                style = "@style/common_search_input_text_style"/>
+            <com.science.view.MyImageButton android:id="@+id/coop_resource_search_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="5dip"
+                android:background="@drawable/icon_search"
+                />  
+        </LinearLayout>
+
+ </LinearLayout>
+ 
+
+    
+    
+    
+    
+  
+ <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      
+      <LinearLayout android:id="@+id/coop_area_layout"
+          android:layout_width="match_parent"
+          android:layout_height="30dip"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:background="@drawable/shape_light_blue"
+          android:orientation="horizontal">
+          
+          <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="地域"
+              android:textColor="@color/white"
+              android:textSize="15sp"
+              android:paddingTop = "5dip"
+              android:paddingBottom="5dip"
+              android:id="@+id/coop_resource_area_select_text"
+              android:maxLines="1"
+              android:maxEms="4"
+              android:ellipsize="end"
+            />
+          <ImageView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/jiantou"
+              android:paddingTop = "5dip"
+              android:paddingBottom="5dip"
+              android:id="@+id/coop_area_arrow"
+              android:layout_marginRight="3dip"/>
+      </LinearLayout>
+      
+         <LinearLayout android:id="@+id/coop_all_layout"
+          android:layout_width="match_parent"
+          android:layout_height="30dip"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:background="@drawable/shape_light_blue">
+          
+          <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="全部"
+              android:textColor="@color/white"
+              android:textSize="15sp"
+              android:paddingTop = "5dip"
+              android:paddingBottom="5dip"
+              android:id="@+id/coop_resource_all_select_text"
+              android:maxLines="1"
+              android:maxEms="4"
+              android:ellipsize="end"/>
+        
+          <ImageView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/jiantou"
+              android:paddingTop = "5dip"
+              android:paddingBottom="5dip"
+              android:id="@+id/coop_all_arrow"
+              android:layout_marginRight="3dip"/>
+      </LinearLayout>
+      
+      
+  </LinearLayout>
+    <RelativeLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/doc_list_layout">
+
+
+<ListView
+   
+    android:id="@+id/coop_fragment_resource_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0dip"
+    android:layout_marginBottom="50dip"
+    style = "@style/common_list_divider_style"
+    >  
+</ListView>
+
+
+<TextView android:id="@+id/coop_empty_content_hint_text"
+    style = "@style/common_empty_content_hint_style"/>
+  
+  
+<!-- 设置底部按钮 -->
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:gravity="bottom">
+   
+   <!-- 我提供布局 -->
+  <LinearLayout android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/coop_bottom_background_side"
+      android:gravity="center"
+       android:layout_weight="1"
+       android:id="@+id/coop_resource_i_offer">
+    <TextView android:id="@+id/coop_resource_i_offer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我提供"
+        android:textSize="15sp"
+        android:textColor="@color/light_blue"
+        android:textAlignment ="center"
+       />
+  </LinearLayout>  
+  
+  
+    <!-- 中间添加按钮布局 -->
+   <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/coop_bottom_background_middle"
+        android:gravity="center"
+        
+        >
+        
+        <com.science.view.MyImageButton android:id="@+id/coop_add_release"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/plus"
+            android:background="@null"/>
+        
+        
+    </LinearLayout>
+    
+    
+ <!-- 我要找布局 -->   
+ <LinearLayout android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/coop_bottom_background_side"
+      android:gravity="center"
+       android:layout_weight="1"
+       android:id="@+id/coop_resource_i_need">
+    <TextView android:id="@+id/coop_resource_i_need_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我要找"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:textAlignment ="center"
+       />
+  </LinearLayout> 
+   
+ 
+ 
+ 
+ 
+</LinearLayout>
+
+
+
+</RelativeLayout>   
+
+</LinearLayout>

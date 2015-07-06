@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:gravity="center"
+     android:stretchColumns="1" >
+   
+     <TableRow >
+    
+	     <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	           android:gravity="center"
+	        android:text="用户名:" />
+	  	<EditText 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:inputType="textEmailAddress"
+	            android:hint="请输入邮箱注册"
+	            android:id="@+id/registerusername"
+	         />
+  	</TableRow>
+  
+         
+    <TableRow >
+             
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="昵称:" />
+             
+         <EditText 
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:inputType="text"
+			android:hint="登录成功后显示的名称"
+			android:id="@+id/registernickname"
+         />
+             
+      </TableRow>
+  
+         
+      <TableRow >
+             
+         <TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+           android:gravity="center"
+        	android:text="密码:" />
+             
+         <EditText 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:password="true"
+           android:id="@+id/registerpassword"
+         />
+             
+      </TableRow>
+  
+         
+   	<TableRow >     
+        <TextView
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:gravity="center"
+	       android:text="确认密码:" />           
+         <EditText 
+	          android:layout_width="match_parent"
+	          android:layout_height="wrap_content"
+	         android:password="true"
+	         android:id="@+id/registerrepasswrod"/>        
+    </TableRow>
+    <TableRow >
+        <TextView
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:gravity="center"
+	       android:text="所在地：" />   
+        <Spinner 
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/registerdiyu"
+            />
+    </TableRow>     
+         <TableRow >
+        <TextView
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:gravity="center"
+	       android:text="职业：" />   
+        <Spinner 
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/registerzhiye"
+            />
+    </TableRow>          
+             
+    <RelativeLayout 
+     android:layout_width="match_parent"
+     android:layout_height="match_parent" 
+		>
+      <Button            
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="提交注册"     
+		android:layout_below="@+id/register"     
+		android:layout_marginLeft="50dp"
+        /> 
+    </RelativeLayout>  
+
+</TableLayout>
+

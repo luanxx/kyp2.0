@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/frag_paper_relative">
+    
+      <ImageView android:layout_width="match_parent"
+     android:layout_height="1px"
+    android:src="@color/middle_blue"
+    />
+    <!-- 搜索框的样式 -->
+    <LinearLayout 
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@color/light_blue"
+     android:gravity="center"
+     android:paddingTop="5dip"
+     android:paddingBottom = "5dip">
+
+
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_input_box"
+            android:gravity="center_vertical"
+         >
+            
+            <EditText android:id="@+id/coop_paper_search_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="搜索"
+                style = "@style/common_search_input_text_style"/>
+            <com.science.view.MyImageButton android:id="@+id/coop_paper_search_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="5dip"
+                android:background="@drawable/icon_search"
+                />  
+        </LinearLayout>
+
+ </LinearLayout>
+
+  <ImageView android:layout_width="match_parent"
+     android:layout_height="1px"
+    android:src="@color/middle_blue"
+    />
+  
+  
+ <RelativeLayout android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+  
+  
+  
+<ListView
+   
+    android:id="@+id/frag_paper_list_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dip"
+    android:layout_marginBottom="30dip">
+    
+</ListView>
+
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_background1"
+    android:layout_alignParentBottom="true"
+    
+    android:orientation="horizontal"
+    >
+    
+    
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="理论研究"
+            android:textSize="18dip"
+            android:textColor="@color/white"></TextView>
+            
+           
+            
+        
+    </LinearLayout>
+    
+    
+    
+    
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="临床实践"
+            android:textSize="18dip"
+            android:textColor="@color/white"></TextView>
+           
+        
+    </LinearLayout>
+    
+    
+    
+   <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="数据分析"
+            android:textSize="18dip"
+            android:textColor="@color/white"></TextView>
+           
+        
+    </LinearLayout>
+    
+    
+     
+</LinearLayout>
+</RelativeLayout> 
+
+</LinearLayout>

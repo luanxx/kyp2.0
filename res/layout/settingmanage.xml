@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/settingbg"
+    >
+    <include 
+        layout="@layout/settingheader"
+        />
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grszbj"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    <com.science.view.CircularImage
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:scaleType="fitCenter"
+        android:id="@+id/setting_my_photo"
+        android:layout_gravity="center"
+         />
+    <TextView android:id="@+id/setting_info_my_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dip"
+        android:layout_marginTop="5dip"
+        android:text = "未登录"/>
+    </LinearLayout>
+    
+    
+    
+    <!-- 我的资料 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:layout_margin="20dip"
+        android:orientation="vertical"
+        >
+       <LinearLayout 
+          
+        android:layout_height="0dip"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        style = "@style/setting_item_bg_style"
+        android:id="@+id/settingmyinfo"
+ 
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:background="@drawable/wdzl"
+            android:clickable="false"
+            />
+        
+        <TextView android:text="我的资料"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style = "@style/common_setting_text_style"/>
+        
+        
+        
+<!--         <ImageButton  -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:background="@drawable/wodeziliao" -->
+<!--             android:clickable="false" -->
+<!--             /> -->
+	    </LinearLayout>
+	    
+       
+       
+       <!-- 我的收藏 -->
+	    <LinearLayout 
+	        android:layout_height="0dip"
+	        android:layout_width="match_parent"
+	        android:layout_weight="1"
+	        android:id="@+id/settingmycollection"
+	        style = "@style/setting_item_bg_style"
+	        >
+	        
+	       <ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="15dip"
+	            android:background="@drawable/sc"
+	            android:clickable="false"
+	            />
+	       
+
+	       <TextView android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:text="我的收藏"
+	           style = "@style/common_setting_text_style"
+	           />
+	        
+	    </LinearLayout>
+	    
+	    
+	    <!-- 我的关键词 -->
+	    
+<!-- 	    <LinearLayout  -->
+<!-- 	        android:layout_height="0dip" -->
+<!-- 	        android:layout_width="match_parent" -->
+<!-- 	        android:layout_weight="1" -->
+<!-- 	        style = "@style/setting_item_bg_style" -->
+<!-- 	        android:id="@+id/settingkeyword" -->
+<!-- 	        > -->
+<!-- 	        <ImageView  -->
+<!-- 	            android:layout_width="wrap_content" -->
+<!-- 	            android:layout_height="wrap_content" -->
+<!-- 	            android:layout_marginLeft = "15dip" -->
+<!-- 	            android:background="@drawable/gjc" -->
+<!-- 	            android:clickable="false" -->
+<!-- 	            /> -->
+<!-- 	       <TextView android:layout_width="wrap_content" -->
+<!-- 	           android:layout_height="wrap_content" -->
+<!-- 	           android:text="我的关键词" -->
+<!-- 	           style = "@style/common_setting_text_style" -->
+<!-- 	           /> -->
+<!-- 	    </LinearLayout> -->
+	    
+	    
+	    <!-- 我的发布 -->
+	   <LinearLayout 
+	        android:layout_height="0dip"
+	        android:layout_width="match_parent"
+	        android:layout_weight="1"
+	        style = "@style/setting_item_bg_style"
+	        android:id="@+id/settingpublish"
+	        >
+	        <ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft = "15dip"
+	            android:background="@drawable/fb"
+	            android:clickable="false"
+	            />
+	       <TextView android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:text="我的发布"
+	           style = "@style/common_setting_text_style"
+	           />
+	    </LinearLayout>
+	    
+	    
+	    
+	   <!-- 我的消息 -->
+	     <LinearLayout 
+	        android:layout_height="0dip"
+	        android:layout_width="match_parent"
+	        android:layout_weight="1"
+	        style = "@style/setting_item_bg_style"
+	        android:id="@+id/settingmymessage"
+	        >
+	       <ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft = "15dip"
+	            android:clickable="false"
+	            android:background="@drawable/xx"
+	            />
+	       <TextView android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:text="我的消息"
+	           style = "@style/common_setting_text_style"
+	           />
+	     </LinearLayout>
+	     
+	     
+	     
+	     
+	     <!--设置 -->
+	     <LinearLayout 
+	        android:layout_height="0dip"
+	        android:layout_width="match_parent"
+	        android:layout_weight="1"
+	        style = "@style/setting_item_bg_style"
+	        android:id="@+id/setting_settings"
+	        >
+	       <ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="15dip"
+	            android:background="@drawable/sz"
+	            />
+	       <TextView android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:text="设置"
+	           style = "@style/common_setting_text_style"
+	           />
+	     </LinearLayout>
+    </LinearLayout>
+    
+
+</LinearLayout>

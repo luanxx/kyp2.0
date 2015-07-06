@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    
+    <ImageView android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:src="@color/middle_blue"/>
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/translucent_light_blue"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:gravity="center">
+        
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_input_box"
+            android:gravity="center_vertical"
+        >
+            
+            <EditText android:id="@+id/tech_trend_kywd_alys_input_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="其他关键词分析"
+                style = "@style/common_search_input_text_style"
+                android:imeOptions="actionSearch"/>
+            <com.science.view.MyImageButton android:id="@+id/tech_trend_kywd_alys_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="5dip"
+                android:background="@drawable/icon_search"
+                />
+            
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+        <ImageView android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:src="@color/middle_blue"/>
+
+        <RelativeLayout android:id="@+id/tech_trend_kywd_alys_none_hint_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+        <ListView android:id="@+id/tech_trend_kywd_alys_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/middle_gray"
+            android:dividerHeight="1dip"
+            android:layout_marginBottom="50dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            >
+    
+        </ListView>
+       </RelativeLayout>
+</LinearLayout>

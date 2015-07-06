@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@color/white"
+    android:padding="15dip"
+>
+    
+
+    <com.science.view.MyImageButton android:id="@+id/register_cacel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_cancel"
+        android:layout_gravity="right"
+        android:layout_marginRight="5dip"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="快速注册"
+        android:textColor="@color/fast_register_color"
+        android:textSize="15sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dip"/>
+    
+      <EditText android:id="@+id/email_input_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style = "@style/register_edittext_style"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dip"
+        android:hint="邮箱"
+        android:textColorHint="@color/text_light_gray"
+        android:paddingLeft="5dip"
+        />
+    
+    
+    
+    <EditText android:id="@+id/account_input_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style = "@style/register_edittext_style"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dip"
+        android:hint="用户名"
+        android:textColorHint="@color/text_light_gray"
+        android:paddingLeft="5dip"
+        />
+    
+    
+    <EditText android:id="@+id/password_input_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style = "@style/register_edittext_style"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dip"
+        android:password ="true"
+        android:hint="请输入密码"
+        android:textColorHint="@color/text_light_gray"
+        android:paddingLeft="5dip"
+        />
+    
+        <EditText android:id="@+id/ensure_password_input_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style = "@style/register_edittext_style"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dip"
+        android:password ="true"
+        android:hint="再次输入密码"
+        android:textColorHint="@color/text_light_gray"
+        android:paddingLeft="5dip"
+        />
+    
+
+        
+
+        
+        <com.science.view.MyImageButton
+            android:id="@+id/finish_register_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip"
+            android:src ="@drawable/finish_register"
+            android:layout_gravity="center_horizontal"
+            android:background="@null"
+            android:layout_marginBottom="40dip"
+            />
+</LinearLayout>

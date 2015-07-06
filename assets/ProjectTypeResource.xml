@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<types>
+    
+    <type>
+        <abbr>ALL</abbr>
+        <code>-1</code>
+        <value>全部</value>
+    </type>
+    
+    <type>
+        <abbr>NS</abbr>
+        <code>1</code>
+        <value>自然科学</value>
+    </type> 
+    
+     <type>
+        <abbr>SS</abbr>
+        <code>2</code>
+        <value>社会科学</value>
+    </type>
+    
+</types>

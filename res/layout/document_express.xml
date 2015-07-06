@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/test11"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    
+
+      <com.science.view.MyHeaderView
+        android:id="@+id/doc_express_common_header_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+        
+
+
+   
+<RelativeLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/doc_list_layout">
+    
+
+      <android.support.v4.view.ViewPager
+    android:id="@+id/doc_view_pager"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    </android.support.v4.view.ViewPager>  
+  
+
+<!--  
+<ListView android:id="@+id/doc_list_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dip"
+    android:layout_marginBottom="40dip"
+    android:descendantFocusability ="beforeDescendants">"
+    
+</ListView>
+-->
+    <LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    >
+    
+    <Button android:id="@+id/doc_express_sci_analyse"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_blue"
+        android:text="SCI文献分析"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        android:textSize="16sp"/>
+    <ImageView android:layout_width="0.5dip"
+        android:layout_height="match_parent"
+        android:src="@color/black"/>
+        <Button
+        android:id="@+id/doc_express_sci_assit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_blue"
+        android:text="协助审稿讨论区"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        android:textSize="16sp"/>
+</LinearLayout>
+
+
+<!-- <RelativeLayout  -->
+<!--     android:id="@+id/doc_loading_mask_layout" -->
+<!--     android:layout_width="match_parent" -->
+<!--     android:layout_height="match_parent" -->
+<!--     android:gravity="center" -->
+<!--     android:background="@color/translucent_mask_gray" -->
+<!--     > -->
+<!-- <ProgressBar android:id="@+id/doc_loading_progress_bar" -->
+<!--     android:layout_width="wrap_content" -->
+<!--     android:layout_height="wrap_content" -->
+<!--     style = "?android:attr/progressBarStyleLarge" -->
+<!--     /> -->
+<!-- </RelativeLayout> -->
+
+
+<!--  
+<include layout="@layout/documenttagitem"/>
+-->
+
+  <com.science.view.MyTagView
+    android:id="@+id/doc_tag_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+     />
+
+</RelativeLayout> 
+
+
+
+
+
+
+</LinearLayout>

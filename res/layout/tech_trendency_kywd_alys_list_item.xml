@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+            android:paddingLeft="10dip"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:paddingRight="10dip">
+    
+    
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip"
+>
+
+        <TextView android:id="@+id/tech_trend_kywd_alys_keywords"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关键词"
+            style = "@style/tech_trend_kywd_text"/>
+      <!--  
+        <TextView android:id="@+id/tech_trend_kywd_alys_breviary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="此处是关键词分析"
+            android:layout_marginTop="5dip"
+            style = "@style/tech_trend_kywd_breviary_text"/>
+      -->
+    </LinearLayout>
+
+    <!--  
+    <com.science.view.MyImageButton android:id="@+id/tech_trend_kywd_alys_shoucang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_shoucang_a"
+        android:layout_gravity="center_vertical"/>
+        
+       --> 
+</LinearLayout>

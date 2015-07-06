@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_light_blue"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+<TableLayout
+    android:id="@+id/tag_tab_layout"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+</TableLayout>
+
+<TextView android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+<com.science.view.MyImageButton
+    android:id="@+id/fold_btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/icon_extend"
+    android:layout_alignParentRight="true"
+    android:layout_gravity="right">
+    
+</com.science.view.MyImageButton>
+</LinearLayout>  
+
+
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/other_tag_layout"
+    android:background="@drawable/shape_light_blue"
+    android:visibility="gone">
+    <TextView 
+        android:id="@+id/other_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="其它"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:paddingLeft="25dip"
+        android:paddingTop="25dip"
+        android:paddingBottom="25dip"/>
+    <TextView android:id="@+id/tag_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/other"
+        android:layout_toRightOf="@id/other_text"
+        android:layout_marginLeft="5dip"
+        android:layout_centerVertical="true"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="13sp"
+        android:maxEms="6"
+        android:singleLine="true"
+        android:ellipsize="end"
+        />
+</RelativeLayout>
+</LinearLayout>

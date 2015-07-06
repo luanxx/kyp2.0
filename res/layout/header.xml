@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/light_blue">
+	
+	<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="50dip"
+    android:orientation="horizontal"
+    android:background="@color/light_blue">   
+		 <ImageButton 
+		     android:id="@+id/doc_home_btn"
+			android:layout_marginTop="15dip"
+			android:layout_marginLeft="15dip"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:scaleType="fitCenter"
+			android:background="@drawable/home"
+		/>
+		<TextView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:layout_alignBottom="@+id/doc_home_btn"
+		    android:gravity="center_horizontal"
+		    android:layout_gravity="center_horizontal"
+		    android:text="text"
+		    android:id="@+id/headertitle"
+		    android:paddingTop="10dip"
+		    android:textSize="20sp"
+		    android:textColor="@color/white"
+		    android:layout_centerHorizontal="true"
+		    />
+		<ImageButton 
+		android:layout_marginTop="15dip"
+		android:layout_marginRight="15dip"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:scaleType="fitCenter"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+		android:id="@+id/myheadersettingmanage"
+		android:background="@drawable/personal_setting_normal"
+		/>
+       
+	</RelativeLayout>
+
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:layout_marginTop="5dip"
+	    android:orientation="horizontal"
+	    android:id="@+id/headcontent"
+	    android:gravity="center"
+	    >
+		
+
+	</LinearLayout>
+	    
+
+
+</LinearLayout>

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:scrollbars="vertical"
+       android:background="@color/background_light_gray"
+       >
+
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="12dip"
+    android:paddingRight="12dip"
+    >
+    
+   
+
+   
+    <LinearLayout
+        android:layout_width = "fill_parent"
+        android:layout_height="wrap_content"
+       android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dip">
+    
+       <ImageView android:id="@+id/release_resource_user_photo"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           
+           android:background="@drawable/profile_photo"
+          
+           
+           />
+       <!-- 空布局 -->
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"/>
+       
+       <EditText
+           android:id="@+id/release_resource_user_name"
+           style="@style/release_edittext_style1"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent" 
+           android:hint="姓名"
+           android:layout_marginLeft="0dip"
+           android:layout_weight="3"
+         />
+        <!-- 空布局 --> 
+      <TextView android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_weight="0.6"/>
+       <EditText
+           android:id="@+id/release_resource_user_college"
+           style="@style/release_edittext_style1"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent" 
+           android:hint="单位/学校"
+           android:layout_marginLeft="0dip"
+           android:layout_weight="4"
+         />
+
+    </LinearLayout>
+   
+   
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dip">
+       <!-- 身份选择框 -->
+       <LinearLayout
+                   android:layout_width="90dip"
+                   android:layout_height="40dip"
+                   android:background="@drawable/icon_setting_box"
+                   android:gravity="center_vertical"
+                   android:orientation="horizontal" >
+            
+   	        <TextView style = "@style/setting_info_hint" android:text="身份"/>
+   	        
+   	        
+	        <Spinner
+	            android:id="@+id/release_resource_identity"
+                android:layout_width="wrap_content"
+	            android:layout_height="40dip"
+	            android:layout_weight="1"
+	             />
+	       </LinearLayout>
+       
+         <!-- 空布局 -->
+       <TextView android:layout_width="wrap_content"
+           android:layout_height="40dip"
+           android:layout_weight="0.2"/>
+       
+       
+       <!-- 职务 -->
+      <LinearLayout
+                   android:layout_width="90dip"
+                   android:layout_height="40dip"
+                   android:background="@drawable/icon_setting_box"
+                   android:gravity="center_vertical"
+                   android:orientation="horizontal" >
+            
+   	        <TextView style = "@style/setting_info_hint" android:text="职务"/>
+   	        
+   	        
+	        <Spinner 
+	            android:id="@+id/release_resource_job"
+                android:layout_width="wrap_content"
+	            android:layout_height="40dip"
+	            android:layout_weight="1"
+	            />
+	       </LinearLayout>
+       
+       <!-- 空布局 -->
+       <TextView android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="0.2"/>
+       
+        <!-- 地域 -->
+      <LinearLayout
+                   android:layout_width="90dip"
+                   android:layout_height="40dip"
+                   android:background="@drawable/icon_setting_box"
+                   android:gravity="center_vertical"
+                   android:orientation="horizontal" >
+            
+   	        <TextView style = "@style/setting_info_hint" android:text="地域"/>
+   	        
+   	        
+	        <Spinner 
+	            android:id="@+id/release_resource_area"
+                android:layout_width="wrap_content"
+	            android:layout_height="40dip"
+	            android:layout_weight="1"
+	            />
+	       </LinearLayout>
+    
+   </LinearLayout>
+   
+    
+    
+    
+    
+    <!-- 专业一行 -->
+        <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dip">
+       
+        <EditText 
+            android:id="@+id/release_resource_major"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            style="@style/release_edittext_style1"
+            android:hint="专业"
+            android:layout_weight="1.2"
+           />
+        
+       <!-- 空布局 -->
+       <TextView android:layout_width="wrap_content"
+           android:layout_height="40dip"
+           android:layout_weight="0.25"/>
+        
+        <EditText
+            android:id="@+id/release_resource_contact"
+            style="@style/release_edittext_style1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="联系方式（手机号/邮箱）" 
+            android:layout_weight="0.15"
+            />
+
+    </LinearLayout>
+    
+        
+    <!-- 填写历往经历 -->
+    <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="142dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/release_common_box">
+        <EditText 
+            android:id="@+id/release_resource_experience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="历往资历"
+           style="@style/release_edittext_style2"
+            android:paddingLeft="10dip"
+            android:paddingTop="5dip"
+            />
+        
+     <com.science.view.MyImageButton 
+         android:id="@+id/release_resource_upload_pic"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@drawable/icon_upload_pic"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentBottom="true"
+         android:layout_marginRight="12dip"
+         android:layout_marginBottom="25dip" /> 
+         <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上传图片"
+            android:textSize="12sp"
+            android:textColorHint="@color/text_light_gray"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:paddingRight="6dip"
+            android:paddingBottom="5dip"
+            android:textColor="@color/text_light_gray"/>
+         
+      </RelativeLayout> 
+
+    
+    <!-- 是否带团队 -->
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="25dip"
+      
+        android:layout_marginTop="10dip"
+        android:gravity = "center_vertical">
+        
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style = "@style/release_text_style1"
+            android:text="是否带团队"/>
+        <CheckBox android:id="@+id/release_check_has_team"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style = "style/release_check_style1"
+            />
+        
+       <!-- 人数-->
+
+            <LinearLayout
+                   android:layout_width="80dip"
+                   android:layout_height="30dip"
+                   android:background="@drawable/icon_setting_box"
+                   android:gravity="center_vertical"
+                   android:orientation="horizontal" >
+            
+   	        <TextView style = "@style/setting_info_hint" android:text="人数"/>
+   	        
+   	        
+	        <Spinner 
+	            android:layout_width="wrap_content"
+	            android:layout_height="40dip"
+	            android:layout_weight="1"
+	            android:id="@+id/release_resource_people_number"
+                   />
+	       </LinearLayout>
+    </LinearLayout>
+   
+    
+    
+        <!-- 是否可提供设备 -->
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        >
+        
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style = "@style/release_text_style1"
+            android:text="是否可提供设备"/>
+        <CheckBox android:id="@+id/release_check_has_device"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style = "style/release_check_style1"
+            />
+
+    </LinearLayout>
+    
+    
+    
+    <!-- 名称、类型、型号、数量一栏11111111 -->
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+      >
+       
+        
+        <!-- 名称 -->
+        <LinearLayout
+                   android:layout_width="65dip"
+                   android:layout_height="40dip"
+                   android:background="@drawable/icon_setting_box"
+                   android:gravity="center_vertical"
+                   android:orientation="horizontal"
+                    >
+            
+   	        <TextView style = "@style/setting_info_hint" android:text="名称"/>
+   	        
+   	        
+	        <Spinner 
+	            android:id="@+id/release_resource_device_name"
+                android:layout_width="wrap_content"
+	            android:layout_height="40dip"
+	            android:layout_weight="1"
+	            />
+	       </LinearLayout>
+        <!-- 空布局 -->
+       <TextView android:layout_width="wrap_content"
+           android:layout_height="40dip"
+           android:layout_weight="0.25"/>
+        <!-- 类型 -->
+        <EditText android:id="@+id/release_resource_device_type"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            style="@style/release_edittext_style3"
+            android:hint="类型"
+             android:layout_weight="1"/>
+        <!-- 空布局 -->
+       <TextView android:layout_width="wrap_content"
+           android:layout_height="40dip"
+           android:layout_weight="0.25"/>
+        <!-- 型号 -->
+        <EditText android:id="@+id/release_resource_device_version"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            style="@style/release_edittext_style3"
+            android:hint="型号"
+             android:layout_weight="1"/>
+        <!-- 空布局 -->
+       <TextView android:layout_width="wrap_content"
+           android:layout_height="40dip"
+           android:layout_weight="0.25"/>
+       <!-- 数量-->
+         <LinearLayout
+                   android:layout_width="65dip"
+                   android:layout_height="40dip"
+                   android:background="@drawable/icon_setting_box"
+                   android:gravity="center_vertical"
+                   android:orientation="horizontal" >
+            
+   	        <TextView style = "@style/setting_info_hint" android:text="数量"/>
+   	        
+   	        
+	        <Spinner 
+	            android:id="@+id/release_resource_device_number"
+                android:layout_width="wrap_content"
+	            android:layout_height="40dip"
+	            android:layout_weight="1"
+	            />
+	       </LinearLayout>
+         
+         />
+    </LinearLayout>
+    
+    
+    
+    <!-- 上传图片 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        style="@style/release_select_style1">
+          <!-- 空布局 -->
+       <TextView android:layout_width="wrap_content"
+           android:layout_height="40dip"
+           android:layout_weight="0.25"/>
+        <ImageButton
+            android:id="@+id/release_resource_device_upload_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_upload_pic"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:text="上传图片"
+            android:textColor="@color/light_blue"
+            android:textSize="15sp" />
+         <!-- 空布局 -->
+       <TextView android:layout_width="wrap_content"
+           android:layout_height="40dip"
+           android:layout_weight="0.25"/>
+    </LinearLayout>
+    
+    <TextView
+            android:id="@+id/release_resource_continue"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:layout_marginTop="10dip"
+            style="@style/release_edittext_style3"
+            android:text="继续添加"
+            android:textColor="@color/light_blue"
+            android:textSize="15sp" />
+    
+    <com.science.view.MyImageButton 
+        android:id="@+id/release_resource_finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_finish_release"
+        android:layout_marginTop="15dip"
+        android:layout_marginBottom="10dip"/>
+    
+    
+</LinearLayout>
+</ScrollView>

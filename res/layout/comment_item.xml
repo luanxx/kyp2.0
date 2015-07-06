@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="15dip"
+    android:paddingLeft="5dip"
+    android:paddingRight="5dip"
+    >
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/patchable_corner_bg"
+        android:paddingBottom="20dip">
+        
+    <com.science.view.CircularImage android:id="@+id/comment_photo"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:paddingLeft="10dip"
+        android:src="@drawable/shezhitouxiang"
+        android:layout_marginTop="10dip"/>
+    
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip">
+        
+        <TextView android:id="@+id/customer_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Science"
+            android:textColor="@color/text_dark_gray"
+            android:textSize="13sp"/>
+        <TextView android:id="@+id/comment_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="昨天  16:32"
+            android:textColor="@color/text_light_gray"
+            android:textSize="11sp"/>
+
+        <TextView android:id="@+id/comment_detail_tv"
+            android:background="@drawable/comment_detail_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:paddingRight="5dip"
+            android:paddingLeft="5dip"
+            android:layout_marginRight="20dip"
+            android:text="@string/test_comment_detail"/>
+
+    </LinearLayout>
+    
+   </LinearLayout> 
+    
+    
+    
+   <LinearLayout 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="right"
+       android:layout_marginTop="10dip"
+       android:layout_marginBottom="10dip"
+       android:layout_marginRight="10dip"
+       android:gravity="center_vertical"
+       android:id="@+id/reply_layout"
+       android:paddingLeft="30dip"
+       >
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+    <com.science.view.MyImageButton
+        android:id="@+id/comment_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_like1"
+        android:background="@color/transparent"
+        android:layout_marginLeft="30dip"/>
+     <TextView android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="喜欢"
+           android:textColor="@color/text_light_gray"
+           android:textSize="15sp"
+           android:layout_marginLeft="2dip"
+           android:layout_gravity="center_vertical"/>
+    <TextView android:id="@+id/comment_like_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_light_gray"
+        android:textSize="15sp"
+        android:layout_marginLeft="2dip"/>
+    </LinearLayout>
+    
+    
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/comment_replay"
+        android:layout_marginLeft="10dip"
+        android:gravity="center_vertical">
+        
+       <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_reply"/>
+       <TextView android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="回复"
+           android:textColor="@color/text_light_gray"
+           android:textSize="15sp"
+           android:layout_marginLeft="2dip"
+           />
+    </LinearLayout>
+    
+    
+    
+           <TextView android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="删除"
+           android:textColor="@color/text_light_gray"
+           android:textSize="15sp"
+           android:layout_marginLeft="10dip"
+           android:visibility="gone"
+           android:id="@+id/comment_delete"
+           android:gravity="center_vertical"
+           />
+    
+
+    </LinearLayout>  
+
+</LinearLayout>

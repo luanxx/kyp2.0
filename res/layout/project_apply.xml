@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/test11">
+    
+
+
+  <com.science.view.MyHeaderView
+      android:id="@+id/proj_apply_header"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"/>
+
+
+  <RelativeLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/proj_main_layout">
+      
+
+      
+     <android.support.v4.view.ViewPager
+      android:id="@+id/proj_view_pager"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="25dip"
+      android:paddingLeft="10dip"
+      android:paddingRight="10dip">
+     </android.support.v4.view.ViewPager>
+ 
+
+      <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:id="@+id/proj_select_layout"
+      android:layout_below="@id/proj_view_pager">
+      
+      <LinearLayout android:id="@+id/proj_src_layout"
+          android:layout_width="match_parent"
+          android:layout_height="35dip"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:background="@drawable/shape_light_blue">
+          
+          <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="项目来源"
+              android:textColor="@color/white"
+              android:textSize="15sp"
+              android:paddingTop = "5dip"
+              android:paddingBottom="5dip"
+              
+              android:maxLines="1"
+              android:maxEms="4"
+              android:ellipsize="end"
+              android:id="@+id/proj_src_text"
+            />
+          <ImageView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/jiantou"
+              android:paddingTop = "5dip"
+              android:paddingBottom="5dip"
+              android:layout_marginLeft="5dip"
+              android:id="@+id/proj_src_arrow"/>
+      </LinearLayout>
+      
+      <LinearLayout android:id="@+id/proj_type_layout"
+          android:layout_width="match_parent"
+          android:layout_height="35dip"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:background="@drawable/shape_light_blue">
+          
+          <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="项目类型"
+              android:textColor="@color/white"
+              android:textSize="15sp"
+              android:paddingTop = "5dip"
+              android:paddingBottom="5dip"
+              android:maxLines="1"
+              android:maxEms="4"
+              android:ellipsize="end"
+              android:id="@+id/proj_type_text"/>
+          <ImageView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/jiantou"
+              android:layout_marginLeft="5dip"
+              android:paddingTop = "5dip"
+              android:paddingBottom="5dip"
+              android:id="@+id/proj_type_arrow"/>
+      </LinearLayout>
+      
+      
+  </LinearLayout>
+
+      
+
+    </RelativeLayout>   
+      
+  
+  
+  
+  
+  
+ 
+  
+
+
+  
+  
+  
+  
+  
+  <!--  
+<ListView
+    android:id="@+id/proj_list_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="30dip">
+ 
+</ListView>
+-->   
+
+
+
+</LinearLayout>

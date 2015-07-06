@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:paddingTop="15dip"
+    android:paddingBottom="15dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:gravity="center_vertical">
+    
+<!--     <LinearLayout android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:paddingLeft="10dip" -->
+<!--         android:paddingTop="5dip" -->
+<!--         android:paddingBottom="5dip" -->
+<!--         android:paddingRight="10dip"> -->
+        
+        
+<!--      <LinearLayout android:layout_width="wrap_content" -->
+<!--          android:layout_height="wrap_content" -->
+<!--          android:orientation="vertical"> -->
+         
+         <TextView android:id="@+id/tech_trend_acdm_affr_item_title"
+             android:layout_weight="1"
+             android:layout_width="0dip"
+             android:layout_height="wrap_content"
+             android:text="北京市关于征集2014年中央文化产业发展专项资金的一般通知"
+             android:textColor="@color/text_dark_gray"
+             android:textSize="18sp"
+             android:maxLines="2"
+             android:ellipsize="end"
+          />
+<!--          <LinearLayout android:layout_width="wrap_content" -->
+<!--              android:layout_height="wrap_content" -->
+<!--              android:gravity="center_vertical" -->
+<!--              android:layout_marginTop="5dip"> -->
+             
+<!--              <ImageView android:layout_width="wrap_content" -->
+<!--                  android:layout_height="wrap_content" -->
+<!--                  android:src="@drawable/icon_like1"/> -->
+<!--              <TextView android:id="@+id/tech_trend_acdm_affr_item_like_num" -->
+<!--                  android:layout_width="wrap_content" -->
+<!--                  android:layout_height="wrap_content" -->
+<!--                  android:text="2781" -->
+<!--                  style="@style/common_list_item_figure_text_style" -->
+<!--                  android:layout_marginLeft="3dip" -->
+<!--                 /> -->
+             
+             
+<!--            <ImageView android:layout_width="wrap_content" -->
+<!--                  android:layout_height="wrap_content" -->
+<!--                  android:src="@drawable/icon_reply" -->
+<!--                  android:layout_marginLeft="10dip"/> -->
+<!--              <TextView android:id="@+id/tech_trend_acdm_affr_item_comment_num" -->
+<!--                  android:layout_width="wrap_content" -->
+<!--                  android:layout_height="wrap_content" -->
+<!--                  android:text="2781" -->
+<!--                  style="@style/common_list_item_figure_text_style" -->
+<!--                  android:layout_marginLeft="3dip" -->
+<!--                 />    -->
+<!--          </LinearLayout> -->
+         
+<!--      </LinearLayout> -->
+        
+
+         <!-- 显示头像的view -->
+<!--          <ImageView android:id="@+id/tech_trend_acdm_affr_item_photo" -->
+<!--              android:layout_width="60dip" -->
+<!--              android:layout_height="60dip" -->
+<!--              android:scaleType="fitCenter" -->
+<!--              android:layout_marginRight="15dip" -->
+<!--              android:layout_marginLeft="10dip" -->
+<!-- 		     android:layout_gravity="center_vertical" -->
+<!--           /> -->
+
+     
+<!--   </LinearLayout> -->
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<all_resources>
+<resources id = "100" name = "人力"> 
+    <resource>
+        <abbr>ALL</abbr>
+        <code>100</code>
+        <value>全部</value>
+    </resource>
+    
+    <resource>
+        <abbr>STU</abbr>
+        <code>101</code>
+        <value>学生</value>
+    </resource>
+    
+    <resource>    
+        <abbr>SCHO</abbr>
+        <code>102</code>
+        <value>学者</value>
+    </resource>    
+</resources>
+
+
+
+
+
+
+
+<resources id = "200" name = "设备">
+    <resource>
+        <abbr>ALL</abbr>
+        <code>200</code>
+        <value>全部</value>
+    </resource>
+    
+    <resource>
+        <abbr>PRO</abbr>
+        <code>201</code>
+        <value>专业设备</value>
+    </resource>
+    
+    <resource>    
+        <abbr>USUA</abbr>
+        <code>202</code>
+        <value>通用设备</value>
+    </resource>    
+</resources>
+
+</all_resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:gravity="center_vertical"
+    android:paddingTop="5dip"
+    android:paddingBottom="5dip">
+    
+  <ImageView android:layout_width="40dip"
+      android:layout_height="40dip"
+      android:src="@drawable/icon_upload_pic"
+      android:layout_marginLeft="10dip"
+      android:id="@+id/coop_cooper_photo"
+/>  
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_marginLeft="10dip">
+      
+      <TextView android:id="@+id/coop_cooper_base_info"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          style = "@style/coop_cooper_text_name_style"
+          android:text="Operation  教授    团队10人"/>
+      
+      <TextView android:id="@+id/coop_cooper_brief_introduction"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          style = "@style/coop_cooper_text_introduction_style"
+          android:text="清华大学天体物理学博士生导师"
+          android:layout_marginTop="3dip"/>
+      
+  </LinearLayout>
+</LinearLayout>

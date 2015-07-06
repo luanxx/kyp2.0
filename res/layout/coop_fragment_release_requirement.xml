@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingLeft="10dip"
+       android:paddingRight="10dip"
+       android:orientation="vertical"
+       android:background="@color/background_light_gray">
+      <LinearLayout 
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+           android:orientation="vertical"
+          >
+         <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dip"
+                   android:layout_marginTop="20dip"
+                   android:background="@drawable/icon_setting_box"
+                   android:gravity="center_vertical"
+                >
+            
+   	        <TextView style = "@style/setting_info_hint" android:text="地域        "/>
+   	        
+   	        
+	        <Spinner 
+	            android:layout_width="wrap_content"
+	            android:layout_height="40dip"
+	            android:layout_weight="1"
+	            android:id="@+id/release_requirement_area"
+	            />
+	   </LinearLayout>
+       <LinearLayout 
+	       android:layout_width="wrap_content"
+	       android:layout_height="40dip"
+	       android:layout_marginTop="15dip"
+	       android:background="@drawable/icon_setting_box"
+	       android:gravity="center_vertical"
+	       android:layout_weight="1"
+	        >
+            
+   	        <TextView style = "@style/setting_info_hint" android:text="有效时间"/>
+   	        
+   	        
+	        <Spinner 
+	            android:layout_width="wrap_content"
+	            android:layout_height="40dip"
+	            android:layout_weight="1"
+	            android:id="@+id/release_requirement_time"
+	            />
+	    </LinearLayout>
+	
+             
+            <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dip"
+                   android:layout_marginTop="15dip"
+                   android:background="@drawable/icon_setting_box"
+                   android:gravity="center_vertical"
+                   >
+            
+   	        <TextView style = "@style/setting_info_hint" android:text="需求类型"/>
+   	        
+   	        
+	        <Spinner 
+	            android:layout_width="wrap_content"
+	            android:layout_height="40dip"
+	            android:layout_weight="1"
+	            android:id="@+id/release_requirement_type"
+	            />
+	       </LinearLayout>
+	   
+            
+   	        <EditText
+   	            android:id="@+id/release_requirement_name"
+   	            android:layout_marginTop="15dip"
+                style="@style/release_edittext_style1"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:paddingLeft="15dip"
+                android:hint="设备名称" />
+   	       
+	  
+            <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dip"
+                   android:layout_marginTop="15dip"
+                   android:background="@drawable/icon_setting_box"
+                   android:gravity="center_vertical"
+                  >
+            
+   	        <TextView style = "@style/setting_info_hint" android:text="人员类型"/>
+   	        
+   	        
+	        <Spinner 
+	            android:layout_width="wrap_content"
+	            android:layout_height="40dip"
+	            android:layout_weight="1"
+	            android:id="@+id/release_requirement_people"
+	            />
+	       </LinearLayout>
+	  
+	    
+       <LinearLayout 
+	       android:layout_width="wrap_content"
+	       android:layout_height="40dip"
+	       android:layout_marginTop="15dip"
+	       android:background="@drawable/icon_setting_box"
+	       android:gravity="center_vertical"
+	       android:layout_weight="1"
+	        >
+            
+   	        <TextView style = "@style/setting_info_hint" android:text="专业领域"/>
+   	        
+   	        
+	        <Spinner 
+	            android:layout_width="wrap_content"
+	            android:layout_height="40dip"
+	            android:layout_weight="1"
+	            android:id="@+id/release_requirement_major"
+	            />
+	    </LinearLayout>
+	
+   
+  
+   <!-- 填写详细描述 -->
+    <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="142dip"
+        android:layout_marginTop="25dip"
+        android:background="@drawable/release_common_box">
+        <EditText 
+            android:id="@+id/release_experience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="详细描述"
+           style="@style/release_edittext_style2"
+            android:paddingLeft="10dip"
+            android:paddingTop="10dip"/>
+        </RelativeLayout>
+        
+   <com.science.view.MyImageButton 
+        android:id="@+id/coop_finish_release"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_finish_release"
+        android:layout_marginTop="30dip"
+        android:layout_marginBottom="20dip"/>
+    
+   </LinearLayout> 
+   
+</ScrollView>
